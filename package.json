@@ -1,0 +1,22 @@
+{
+  "name": "inkbridge",
+  "version": "1.6.10",
+  "description": "笔迹桥：macOS 与 HarmonyOS 平板的 PDF 批注、实时白板和 USB 高画质投屏",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "local": "node local-server.mjs",
+    "test": "npm run test:protocol",
+    "test:protocol": "node --test tests/inkbridge-protocol-v2.test.mjs tests/stroke-tool-lock.test.mjs",
+    "harmony:sync": "bash scripts/inkbridge-harmony.sh sync",
+    "harmony:wireless": "bash scripts/inkbridge-harmony.sh wireless",
+    "harmony:build": "bash scripts/inkbridge-harmony.sh build",
+    "harmony:install": "bash scripts/inkbridge-harmony.sh install"
+  },
+  "dependencies": {
+    "pdfjs-dist": "6.1.200",
+    "qrcode": "1.5.4",
+    "ws": "8.21.1"
+  }
+}

@@ -1,0 +1,49 @@
+# Dependencies and compiler output
+node_modules/
+oh_modules/
+.build/
+.swiftpm/
+.hvigor/
+build/
+dist/
+coverage/
+artifacts/
+outputs/
+work/
+*.app/
+*.hap
+*.hsp
+
+# Local IDE and machine configuration
+.DS_Store
+.idea/
+.vscode/
+local.properties
+*.xcuserstate
+xcuserdata/
+
+# Credentials and HarmonyOS signing material
+.env
+.env.*
+!.env.example
+.ohos/
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.p7b
+*.jks
+*.keystore
+signing/
+
+# Runtime data and local logs
+*.log
+.wrangler/
+.next/
+.vinext/
+.vercel/
+
+# Local assistant/workspace state
+.openai/
+.codex/

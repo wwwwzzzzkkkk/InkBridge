@@ -1,0 +1,11 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "笔迹桥原生数位板",
+  "main": "",
+  "author": "zhekuan",
+  "license": "MIT",
+  "dependencies": {
+    "libscreenmirror.so": "file:./src/main/cpp/types/libscreenmirror"
+  }
+}

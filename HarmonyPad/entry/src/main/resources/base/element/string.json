@@ -1,0 +1,8 @@
+{
+  "string": [
+    { "name": "module_desc", "value": "笔迹桥原生数位板模块" },
+    { "name": "EntryAbility_desc", "value": "将手写笔输入同步到 Mac" },
+    { "name": "EntryAbility_label", "value": "笔迹桥" },
+    { "name": "screen_mirror_background_reason", "value": "在后台持续将平板屏幕通过 USB 投射到 Mac" }
+  ]
+}
